@@ -2,7 +2,7 @@
     <h1 class="text-center font-bold my-4">Featured Events</h1>
     <div class="d-flex gap-4">
         <div class="card d-flex flex-column w-50 ">
-            <a href="#">
+            <a href="{{ route('features_details') }}">
                 <img class="card-img-top" src="https://picsum.photos/1000/300?text=8" alt="" />
             </a>
             <div class="card-body d-flex flex-column px-4">
@@ -72,7 +72,7 @@
                         </button>
                     </div>
                     <div class="d-flex pt-2 text-xxl">
-                        <a href="#">
+                        <a href="{{ route('features_details') }}">
                             Know More
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"

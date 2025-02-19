@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view('registration');
     }
+
+    public function features_details()
+    {
+        return view('features_details');
+    }
 }
