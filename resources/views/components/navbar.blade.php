@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="nav-item">
-                    <a href=" {{ route('registration') }}" class="btn px-4 py-2 rounded-lg text-white font-bold"
+                    <a href=" {{ route('login') }}" class="btn px-4 py-2 rounded-lg text-white font-bold"
                         style="background-color: rgb(91, 209, 215); font-size: 20px">Sign In</a>
                 </div>
             </div>

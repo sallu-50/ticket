@@ -6,9 +6,19 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function registrationForm()
+    public function loginForm()
     {
-        return view('registration');
+        return view('login');
+    }
+
+    public function registerForm()
+    {
+        return view('register');
+    }
+
+    public function verification()
+    {
+        return view('verification');
     }
 
     public function features_details()

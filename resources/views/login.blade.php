@@ -1,33 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
+<x-app-layout title="login">
 
     <div class="modal d-block" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Sign Up</h5>
+                    <h5 class="modal-title fw-bold">Sign In</h5>
 
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="#" method="POST" class="mt-4">
                         <div class="mb-3">
-                            <label class="form-label">Email Address</label>
-                            <input type="email" class="form-control" placeholder="Enter email address">
+                            <label class="form-label fw-bold">Email Address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                name="email" placeholder="Enter email address">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Password</label>
+                            <label class="form-label fw-bold">Password</label>
                             <div class="input-group">
-                                <input type="password" class="form-control" id="password" placeholder="Enter password">
+                                <input type="password" class="form-control" id="password" name="password"
+                                    placeholder="Enter password">
                                 <button class="btn btn-outline-secondary" type="button" id="togglePassword">
                                     <svg id="eyeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -42,22 +33,21 @@
                             </div>
                         </div>
                         <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input">
+                            <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
                             <label class="form-check-label">Remember me</label>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                        <button type="submit" class="btn btn-primary w-100 fw-bold">Login </button>
                     </form>
 
                     <hr>
 
                     <button class="btn btn-light border w-100">
-                        <i class="fab fa-google me-2"></i> Sign Up with Google
+                        <i class="fab fa-google me-2 fw-bold"></i> Continue with Google
                     </button>
 
                     <div class="text-center mt-3">
-                        <a class="text-decoration-none px-2" href ="#">Forgot Password?</a> | <a
-                            class="text-decoration-none px-2" href="#">Already
-                            have an account? Sign In</a>
+                        <a class="text-decoration-none px-2 fw-bold" href ="#">Forgot Password?</a> | <a
+                            class="text-decoration-none px-2 fw-bold" href="{{ route('register') }}"> Create Account</a>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -91,6 +81,4 @@
         });
     </script>
 
-</body>
-
-</html>
+</x-app-layout>
