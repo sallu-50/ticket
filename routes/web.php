@@ -10,7 +10,7 @@ Route::get('/', function () {
 
 
 Route::get('/login', [HomeController::class, 'loginForm'])->name('login');
-Route::get('/Register', [HomeController::class, 'registerForm'])->name('register');
+Route::get('/sign-up', [HomeController::class, 'registerForm'])->name('sign-up');
 Route::get('/verification', [HomeController::class, 'verification'])->name('verification');
 
 Route::get('/features_details', [HomeController::class, 'features_details'])->name('features_details');

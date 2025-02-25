@@ -1,4 +1,4 @@
-<x-app-layout title="verification">
+<x-layouts.main title="verification">
     <div class="container d-flex justify-content-center align-items-center vh-100">
         <div class="card shadow p-4 text-center" style="width: 400px;">
             <h4 class="fw-bold">Enter Verification Code</h4>

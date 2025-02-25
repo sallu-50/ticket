@@ -1,4 +1,4 @@
-<x-app-layout title="register">
+<x-layouts.main title="register">
 
     <div class="modal d-block" tabindex="-1">
         <div class="modal-dialog">

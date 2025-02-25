@@ -13,6 +13,7 @@ class HomeController extends Controller
 
     public function registerForm()
     {
+
         return view('register');
     }
 

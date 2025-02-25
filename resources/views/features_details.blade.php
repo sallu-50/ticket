@@ -1,4 +1,4 @@
-<x-app-layout title="Home">
+<x-layouts.main  title="Home">
     <x-top-navbar />
 
     <x-navbar />
@@ -9,14 +9,26 @@
         <!-- Page body -->
         <div class="page-body px-8">
 
-            <x-featured-details />
-            <x-contact />
+           <div class="container-xl">
+            <x-event.details />
+            <x-event.ticket />
+            <x-event.summary />
+            <x-event.onstage />
+             <x-event.sponsor />
+           
+           
+  
+
+          
+           </div>
 
 
 
 
 
         </div>
-        <x-footer />
+    
+        
     </div>
+    <x-footer />
 </x-app-layout>

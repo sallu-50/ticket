@@ -1,4 +1,4 @@
-<x-app-layout title="Home">
+<x-layouts.main title="Home">
     <x-top-navbar />
 
     <x-navbar />
@@ -22,8 +22,9 @@
 
 
         </div>
-        <x-footer />
+        
     </div>
+    <x-footer />
 </x-app-layout>
 <style>
     @media (max-width: 767px) {
