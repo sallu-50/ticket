@@ -1,31 +1,44 @@
 <x-layouts.main title="verification">
-    <div class="container d-flex justify-content-center align-items-center vh-100">
-        <div class="card shadow p-4 text-center" style="width: 400px;">
-            <h4 class="fw-bold">Enter Verification Code</h4>
-            <p class="text-muted">We have sent a 6-digit code to your email.</p>
 
-            <form>
-                <div class="d-flex justify-content-between mb-3">
-                    <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
-                        style="width: 50px; height: 50px; font-size: 24px;">
-                    <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
-                        style="width: 50px; height: 50px; font-size: 24px;">
-                    <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
-                        style="width: 50px; height: 50px; font-size: 24px;">
-                    <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
-                        style="width: 50px; height: 50px; font-size: 24px;">
-                    <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
-                        style="width: 50px; height: 50px; font-size: 24px;">
-                    <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
-                        style="width: 50px; height: 50px; font-size: 24px;">
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="w-100" style="max-width: 400px;">
+            <div class="text-center mb-4">
+                <a href="{{ route('home') }}">
+                    <img src="{{ asset('storage/images/logo.svg') }}" width="100" height="32"
+                        class="navbar-brand-image">
+                </a>
+            </div>
+            <div class="card shadow">
+                <div class="card-body">
+                    <h2 class="fw-bold text-center">Enter Verification Code</h2>
+                    <h3 class="text-muted text-center">We have sent a 6-digit code to your email.</h3>
+                    <form>
+
+                        <div class="d-flex justify-content-between mb-3">
+                            <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
+                                style="width: 50px; height: 50px; font-size: 24px;">
+                            <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
+                                style="width: 50px; height: 50px; font-size: 24px;">
+                            <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
+                                style="width: 50px; height: 50px; font-size: 24px;">
+                            <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
+                                style="width: 50px; height: 50px; font-size: 24px;">
+                            <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
+                                style="width: 50px; height: 50px; font-size: 24px;">
+                            <input type="text" class="otp-input form-control text-center mx-1" maxlength="1"
+                                style="width: 50px; height: 50px; font-size: 24px;">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 fw-bold">Verify</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <small>Didn't receive a code? <a href="#" class="fw-bold">Resend</a></small>
+                    </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary w-100 fw-bold">Verify</button>
-            </form>
 
-            <div class="text-center mt-3">
-                <small>Didn't receive a code? <a href="#" class="fw-bold">Resend</a></small>
             </div>
+
         </div>
     </div>
 
@@ -60,4 +73,4 @@
             });
         });
     </script>
-</x-app-layout>
+    </x-app-layout>
