@@ -32,46 +32,83 @@
     }
 </style>
 
-<div class="my-6">
-    <h1 class="font-bold my-4">Past Events</h1>
-    <div class="d-flex gap-4">
-        <!-- Card 1 -->
-        <div class="card card-zoom d-flex flex-column">
-            <a href="#">
-                <img class="card-img-top" src="https://picsum.photos/1000/500?text=1" alt="" />
-            </a>
-            <div class="card-body d-flex flex-column">
-                <h3 class="card-title">
-                    <a href="#">How do you know she is a witch?</a>
-                </h3>
-                <div class="text-secondary">Are you suggesting she's a witch?</div>
+<div class="container-xl mt-8">
+    <div class="">
+        <h1 class="text-start fw-bolder display-6 my-6 text-uppercase">Past Events</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card card-zoom shadow-sm ">
+                    <a href="{{ route('features_details') }}">
+
+                        <div class="img-responsive img-responsive-16x9 card-img-top"
+                            style="background-image: url('https://picsum.photos/1000/300')"></div>
+
+                    </a>
+                    <div class="card-body ">
+                        <h2 class="">
+                            <a href="#">How do you know she is a witch?</a>
+                        </h2>
+                        <h3>
+                            <a href="#">How do you is a witch?</a>
+
+                        </h3>
+
+
+                    </div>
+                </div>
             </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-zoom shadow-sm ">
+                    <a href="{{ route('features_details') }}">
+
+                        <div class="img-responsive img-responsive-16x9 card-img-top"
+                            style="background-image: url('https://picsum.photos/1000/300')"></div>
+
+                    </a>
+                    <div class="card-body ">
+                        <h2 class="">
+                            <a href="#">How do you know she is a witch?</a>
+                        </h2>
+                        <h3>
+                            <a href="#">How do you is a witch?</a>
+
+                        </h3>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-zoom shadow-sm ">
+                    <a href="{{ route('features_details') }}">
+
+                        <div class="img-responsive img-responsive-16x9 card-img-top"
+                            style="background-image: url('https://picsum.photos/1000/300')"></div>
+
+                    </a>
+                    <div class="card-body ">
+                        <h2 class="">
+                            <a href="#">How do you know she is a witch?</a>
+                        </h2>
+                        <h3>
+                            <a href="#">How do you is a witch?</a>
+
+                        </h3>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+            <a class="font-bold text-center btn btn-light p-2" href="">See More Events</a>
         </div>
 
-        <!-- Card 2 -->
-        <div class="card d-flex card-zoom flex-column">
-            <a href="#">
-                <img class="card-img-top" src="https://picsum.photos/1000/500?text=2" alt="" />
-            </a>
-            <div class="card-body d-flex flex-column">
-                <h3 class="card-title">
-                    <a href="#">The Knight’s Tale</a>
-                </h3>
-                <div class="text-secondary">A medieval adventure story.</div>
-            </div>
-        </div>
 
-        <!-- Card 3 -->
-        <div class="card d-flex card-zoom flex-column">
-            <a href="#">
-                <img class="card-img-top" src="https://picsum.photos/1000/500?text=3" alt="" />
-            </a>
-            <div class="card-body d-flex flex-column">
-                <h3 class="card-title">
-                    <a href="#">The Holy Grail Quest</a>
-                </h3>
-                <div class="text-secondary">A journey to find the sacred relic.</div>
-            </div>
-        </div>
+
     </div>
+
 </div>

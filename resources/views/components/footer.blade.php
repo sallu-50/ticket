@@ -3,12 +3,13 @@
         <div class="row text-center align-items-center flex-row-reverse">
             <div class="col-lg-auto ms-lg-auto">
                 <ul class="list-inline list-inline-dots mb-0">
-                    <li class="list-inline-item"><a href="https://tabler.io/docs" target="_blank" class="link-secondary"
-                            rel="noopener">Documentation</a></li>
-                    <li class="list-inline-item"><a href="./license.html" class="link-secondary">License</a>
+                    <li class="list-inline-item text-uppercase"><a href="https://tabler.io/docs" target="_blank"
+                            class="link-secondary" rel="noopener">faq</a></li>
+                    <li class="list-inline-item text-uppercase"><a href="./license.html" class="link-secondary">Terms
+                            and conditions</a>
                     </li>
-                    <li class="list-inline-item"><a href="https://github.com/tabler/tabler" target="_blank"
-                            class="link-secondary" rel="noopener">Source code</a></li>
+                    <li class="list-inline-item text-uppercase"><a href="https://github.com/tabler/tabler"
+                            target="_blank" class="link-secondary" rel="noopener">privacy policy</a></li>
                     <li class="list-inline-item">
                         <a href="https://github.com/sponsors/codecalm" target="_blank" class="link-secondary"
                             rel="noopener">
@@ -28,7 +29,7 @@
                 <ul class="list-inline list-inline-dots mb-0">
                     <li class="list-inline-item">
                         Copyright &copy; 2025
-                        <a href="." class="link-secondary">Tabler</a>.
+                        <a href="." class="link-secondary">xirconium</a>.
                         All rights reserved.
                     </li>
                     <li class="list-inline-item">

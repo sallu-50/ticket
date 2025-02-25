@@ -5,7 +5,7 @@
 
             <a class="nav-link" href="./">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook icon-size-xxl"
-                    style="height: 26px; width: 26px;" viewBox="0 0 24 24" fill="currentColor">
+                    style="height: 22px; width: 22px;" viewBox="0 0 24 24" fill="currentColor">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path
                         d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" />
@@ -13,7 +13,7 @@
             </a>
             <a class="nav-link" href="./">
                 <!-- Download SVG icon from http://tabler.io/icons/icon/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" style="height: 26px; width: 26px;" viewBox="0 0 24 24"
+                <svg xmlns="http://www.w3.org/2000/svg" style="height: 22px; width: 22px;" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -24,7 +24,7 @@
             </a>
             <a class="nav-link" href="./">
                 <!-- Download SVG icon from http://tabler.io/icons/icon/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" style="height: 26px; width: 26px;" viewBox="0 0 24 24"
+                <svg xmlns="http://www.w3.org/2000/svg" style="height: 22px; width: 22px;" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -37,7 +37,7 @@
             </a>
             <a class="nav-link" href="./">
                 <!-- Download SVG icon from http://tabler.io/icons/icon/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" style="height: 26px; width: 26px;" viewBox="0 0 24 24"
+                <svg xmlns="http://www.w3.org/2000/svg" style="height: 22px; width: 22px;" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="icon icon-tabler icons-tabler-outline icon-tabler-phone-ringing">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -49,7 +49,7 @@
                 </svg>
 
             </a>
-            <a class="nav-link text-sm" style="font-size: 16px" href="./">
+            <a class="nav-link text-sm" style="font-size: 14px" href="./">
                 <!-- Download SVG icon from http://tabler.io/icons/icon/home -->
                 01324869686
             </a>
@@ -59,8 +59,8 @@
             <div class="nav-item d-none d-md-flex me-3">
                 <div class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3 gap-4">
 
-                    <a class="nav-link" style="font-size: 16px" href="./">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="height: 26px; width: 26px;" viewBox="0 0 24 24"
+                    <a class="nav-link" style="font-size: 14px" href="./">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="height: 22px; width: 22px;" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-notes">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -71,8 +71,8 @@
                         </svg>
                         List Your Event
                     </a>
-                    <a class="nav-link" style="font-size: 16px" href="./">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="height: 26px; width: 26px;" viewBox="0 0 24 24"
+                    <a class="nav-link" style="font-size: 14px" href="./">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="height: 22px; width: 22px;" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round"
                             class="icon icon-tabler icons-tabler-outline icon-tabler-layers-selected">
