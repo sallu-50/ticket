@@ -1,3 +1,46 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="ticket d-flex shadow-lg">
+                <div class="ticket-left">
+                    <h1 class="fw-bold">MUSIC FESTIVAL</h1>
+                    <div>
+                        <span class="info-box">123 ANYWHERE ST., ANY CITY</span>
+                        <span class="info-box">JAN 25</span>
+                        <span class="info-box">07:00 PM</span>
+                    </div>
+                    <div>
+                        <span class="info-box">PRICE: $12</span>
+                    </div>
+                </div>
+                <div class="ticket-right">
+                    <span class="barcode">TICKET NUMBER:<br> 0123456789</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="ticket d-flex shadow-lg">
+                <div class="ticket-left">
+                    <h1 class="fw-bold">MUSIC FESTIVAL</h1>
+                    <div>
+                        <span class="info-box">123 ANYWHERE ST., ANY CITY</span>
+                        <span class="info-box">JAN 25</span>
+                        <span class="info-box">07:00 PM</span>
+                    </div>
+                    <div>
+                        <span class="info-box">PRICE: $12</span>
+                    </div>
+                </div>
+                <div class="ticket-right">
+                    <span class="barcode">TICKET NUMBER:<br> 0123456789</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
 <style>
     body {
         background-color: #111;
@@ -29,8 +72,14 @@
 
     .ticket-right {
         flex: 3;
-        background: url('https://source.unsplash.com/600x300/?concert,crowd') no-repeat center center/cover;
+
         position: relative;
+        display: flex;
+        /* Added to enable flexbox */
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
     }
 
     .barcode {
@@ -38,10 +87,9 @@
         transform: rotate(180deg);
         font-size: 18px;
         letter-spacing: 5px;
-        position: absolute;
-        right: 10px;
-        top: 20px;
         color: #fff;
+        text-align: center;
+        /* Center the text */
     }
 
     .info-box {
@@ -59,50 +107,3 @@
         }
     }
 </style>
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6 col-md-12">
-            <div class="ticket d-flex shadow-lg">
-                <div class="ticket-left">
-                    <h6>BORCELLE MUSIC</h6>
-                    <h1 class="fw-bold">MUSIC FESTIVAL</h1>
-                    <span class="music-icon">🎵</span>
-                    <div>
-                        <span class="info-box">123 ANYWHERE ST., ANY CITY</span>
-                        <span class="info-box">JAN 25</span>
-                        <span class="info-box">07:00 PM</span>
-                    </div>
-                    <div>
-                        <span class="info-box">PRICE: $12</span>
-                        <span class="info-box">SEAT: AB1</span>
-                    </div>
-                </div>
-                <div class="ticket-right">
-                    <span class="barcode">TICKET NUMBER: 0123456789</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-12">
-            <div class="ticket d-flex shadow-lg">
-                <div class="ticket-left">
-
-                    <h1 class="fw-bold">MUSIC FESTIVAL</h1>
-
-                    <div>
-                        <span class="info-box">123 ANYWHERE ST., ANY CITY</span>
-                        <span class="info-box">JAN 25</span>
-                        <span class="info-box">07:00 PM</span>
-                    </div>
-                    <div>
-                        <span class="info-box">PRICE: $12</span>
-
-                    </div>
-                </div>
-                <div class="ticket-right">
-                    <span class="barcode">TICKET NUMBER: 0123456789</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
