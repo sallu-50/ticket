@@ -50,6 +50,7 @@
                         <a href="{{ route('login') }}" class="btn px-4 py-2 rounded-lg text-white font-bold"
                             style="background-color: rgb(91, 209, 215); font-size: 16px">Sign In</a>
                     </li>
+                    <x-profile.profile />
                 </ul>
             </div>
         </div>
